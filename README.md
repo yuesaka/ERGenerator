@@ -1,7 +1,7 @@
 A simple Euclidean Rhythm Generator class written in javascript. JS adaption of Bjorklund's algorithm
 (https://github.com/brianhouse/bjorklund)
 
-#Usage
+*Usage
 
 var ERGenerator = new ERGenerator();
 print(ERGenerator.generate(8,3,0)); // 1,0,0,1,0,0,1,0
