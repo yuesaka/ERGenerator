@@ -70,7 +70,3 @@ function rotate(a, p){
         for(i = l; i > p; x = a[--i], a[i] = a[i - p], a[i - p] = x);
     return a;
 };
-
-var ERGenerator = new ERGenerator();
-print(ERGenerator.generate(8,3,0));
-print(ERGenerator.generate(16,5,3));
